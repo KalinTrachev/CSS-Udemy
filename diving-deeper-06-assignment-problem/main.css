@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    padding: 7px;
+    border: 3px darkgreen solid;
+    margin: 3px 33px 8px 10px;
+    display: inline-block;
+}
+.main-div {
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+div:hover {
+    font-weight: bold;
+}
+div:active{
+    
+}
