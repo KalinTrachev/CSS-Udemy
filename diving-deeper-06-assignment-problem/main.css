@@ -19,4 +19,5 @@ div:last-of-type:hover,
 div:last-of-type:active{
     color: white;
     background: grey;
+    margin-top: -10px;
 }
