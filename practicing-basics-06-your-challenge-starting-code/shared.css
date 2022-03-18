@@ -7,30 +7,9 @@ body {
     margin: 0;
 }
 
-.button {
-    background: navy;
-    color: white;
-    font: inherit;
-    border: 1px solid white;
-    padding: 8px;
-    border-radius: 7px;
-    font-weight: bold;
-    cursor: pointer;
-
-}
-.button:hover,
-.button:active {
-    background: white;
-    color: navy;
-    outline: none;
-}
-/* h1 {
-    font-family: sans-serif;
-} */
-
 .main-header {
     width: 100%;
-    background: #d1b666;
+    background: #2ddf5c;
     padding: 8px 16px;
 }
 
@@ -40,12 +19,11 @@ body {
 }
 
 .main-header__brand {
-    color: navy;
+    color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
 }
-
 
 .main-nav {
     display: inline-block;
@@ -53,7 +31,6 @@ body {
     width: calc(100% - 74px);
     vertical-align: middle;
 }
-
 
 .main-nav__items {
     margin: 0;
@@ -95,7 +72,6 @@ body {
 
 .main-footer {
     background: black;
-    list-style: none;
     padding: 32px;
     margin-top: 48px;
 }
@@ -120,4 +96,25 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
 }
