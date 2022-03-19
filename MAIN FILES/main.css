@@ -1,9 +1,10 @@
 
 #product-overview {
-    background: url("https://images-na.ssl-images-amazon.com/images/I/918UQ0QMMTL.jpg");
+    background: url("freedom.jpg");
     width: 100%;
     height: 770px;
     padding: 10px;
+    margin-top: 70px;
     
 }
 
@@ -12,7 +13,7 @@
 } */
 
 .section-title {
-    color: navy;
+    color: rgb(47, 65, 60);
     text-align: center;
     padding: 14px;
 }
@@ -27,7 +28,7 @@
 }
 
 .plan {
-    background: #d1b666;
+    background: rgb(230, 199, 163);
     text-align: center;
     padding: 16px;
     margin: 16px;
@@ -40,21 +41,21 @@
 }
 
 .plan--highlighted {
-    background: #b89019;
+    background: rgb(212, 131, 54);
     color: white;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
     background: white;
-    color: navy;
+    color: rgb(47, 65, 60);
     padding: 8px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 7px;
     
 }
 .plan__title {
-    color: #dadddd;
+    color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 128, 0.428);
 
 }
@@ -63,7 +64,7 @@
 }
 
 .plan--highlighted .plan__price {
-    color: navy;
+    color: rgb(47, 65, 60);
 }
 
 /* .plan--highlighted .plan__annotation {
@@ -84,10 +85,8 @@
     margin: auto;
 }
 
-
-
 #key-features {
-    background: #d1b666;
+    background: rgb(46, 33, 33);
     margin: 56px 11%;
     padding: 14px;
     width: 77%;
@@ -100,7 +99,7 @@
 }
 
 .key-feature__image {
-    background: lightslategray;
+    background: #ccc;
     width: 128px;
     height: 128px;
     border: 2px solid darkgrey;
@@ -109,7 +108,7 @@
 }
 
 #key-features .section-title {
-    color: navy;
+    color: white;
     margin: 42px;
 }
 
@@ -123,6 +122,6 @@
 .key-feature__description {
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: #e6c7a3;
     font-size: 20px;
 }

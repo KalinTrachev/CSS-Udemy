@@ -8,7 +8,7 @@ body {
 }
 
 .button {
-    background: navy;
+    background: rgb(47, 65, 60);
     color: white;
     font: inherit;
     border: 1px solid white;
@@ -21,7 +21,7 @@ body {
 .button:hover,
 .button:active {
     background: white;
-    color: navy;
+    color: rgb(47, 65, 60);
     outline: none;
 }
 /* h1 {
@@ -30,8 +30,9 @@ body {
 
 .main-header {
     width: 100%;
-    background: #d1b666;
+    background: #e6c7a3;
     padding: 8px 16px;
+    box-shadow: 8px 8px 16px 2px rgba(0, 0, 0, 0.7);;
 }
 
 .main-header > div {
@@ -40,7 +41,7 @@ body {
 }
 
 .main-header__brand {
-    color: navy;
+    color: rgb(47, 65, 60);
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
@@ -68,7 +69,7 @@ body {
 
 .main-nav__item a {
     text-decoration: none;
-    color: #0e4f1f;
+    color: rgb(47, 65, 60);
     font-weight: bold;
     padding: 3px 0;
 }
@@ -81,14 +82,15 @@ body {
 
 .main-nav__item--cta a {
     color: white;
-    background: #ff1b68;
+    background: rgb(28, 85, 88);
     padding: 8px 16px;
     border-radius: 8px;
+    border: 1px white solid;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-    color: #ff1b68;
+    color: rgb(28, 85, 88);
     background: white;
     border: none;
 }
