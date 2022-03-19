@@ -10,7 +10,11 @@ main {
     /* border: 5px rgb(230, 199, 163) solid; */
     border-radius: 14px;
     border-left: none;
-    box-shadow: 8px 8px rgb(230, 199, 163);
+    box-shadow: 14px 14px rgb(230, 199, 163);
+}
+.main-section:hover,
+.main-section:active {
+    box-shadow: 14px 14px rgb(212, 131, 54);
 }
 
 .main-section a {

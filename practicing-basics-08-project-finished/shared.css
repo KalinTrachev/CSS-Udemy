@@ -7,32 +7,10 @@ body {
     margin: 0;
 }
 
-.button {
-    background: rgb(47, 65, 60);
-    color: white;
-    font: inherit;
-    border: 1px solid white;
-    padding: 8px;
-    border-radius: 7px;
-    font-weight: bold;
-    cursor: pointer;
-
-}
-.button:hover,
-.button:active {
-    background: white;
-    color: rgb(47, 65, 60);
-    outline: none;
-}
-/* h1 {
-    font-family: sans-serif;
-} */
-
 .main-header {
     width: 100%;
-    background: rgb(230, 199, 163);
+    background: #2ddf5c;
     padding: 8px 16px;
-    box-shadow: 8px 8px 16px 2px rgba(0, 0, 0, 0.7);;
 }
 
 .main-header > div {
@@ -41,12 +19,11 @@ body {
 }
 
 .main-header__brand {
-    color: rgb(47, 65, 60);
+    color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
 }
-
 
 .main-nav {
     display: inline-block;
@@ -54,7 +31,6 @@ body {
     width: calc(100% - 74px);
     vertical-align: middle;
 }
-
 
 .main-nav__items {
     margin: 0;
@@ -69,7 +45,7 @@ body {
 
 .main-nav__item a {
     text-decoration: none;
-    color: rgb(47, 65, 60);
+    color: #0e4f1f;
     font-weight: bold;
     padding: 3px 0;
 }
@@ -82,22 +58,20 @@ body {
 
 .main-nav__item--cta a {
     color: white;
-    background: rgb(28, 85, 88);
+    background: #ff1b68;
     padding: 8px 16px;
     border-radius: 8px;
-    border: 1px white solid;
 }
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active {
-    color: rgb(28, 85, 88);
+    color: #ff1b68;
     background: white;
     border: none;
 }
 
 .main-footer {
     background: black;
-    list-style: none;
     padding: 32px;
     margin-top: 48px;
 }
@@ -122,4 +96,25 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+.button {
+    background: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+}
+
+.button:focus {
+    outline: none;
 }
