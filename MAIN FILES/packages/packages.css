@@ -17,6 +17,10 @@ main {
     box-shadow: 14px 14px rgb(212, 131, 54);
 }
 
+.main-section:hover .main-section__item {
+    background: rgb(212, 131, 54);
+}
+
 .main-section a {
     text-decoration: none;
     color: inherit;
