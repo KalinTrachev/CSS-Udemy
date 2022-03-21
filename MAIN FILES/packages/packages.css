@@ -14,8 +14,9 @@ main {
 
 .main-section {
     width: 56%;
+    height: 280px;
     /* background: rgb(47, 65, 60); */
-    padding: 32px;
+    padding: 24px;
     margin: 42px 10px;
     /* border: 5px rgb(230, 199, 163) solid; */
     border-radius: 14px;
@@ -64,6 +65,7 @@ main {
 .main-section__header {
     font-size: 32px;
     color: white;
+    margin: 16px;
 }
 
 .main-section__item {
