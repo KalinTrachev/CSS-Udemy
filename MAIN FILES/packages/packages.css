@@ -2,7 +2,7 @@
     background: url("../Images/BbR6PIBCcAAB_81.jpg");
     position: fixed;
     bottom: 10px;
-    right: -1000px;
+    left: 940px;
     width: 100%;
     height: 90%;
     z-index: -10;
@@ -13,9 +13,9 @@ main {
 }
 
 .main-section {
-    width: 56%;
+    width: 46%;
     height: 280px;
-    /* background: rgb(47, 65, 60); */
+    background: rgb(46, 33, 33);
     padding: 24px;
     margin: 42px 10px;
     /* border: 5px rgb(230, 199, 163) solid; */
@@ -26,15 +26,15 @@ main {
 }
 .main-section:hover,
 .main-section:active {
-    box-shadow: 14px 14px rgb(212, 131, 54);
+    box-shadow: 14px 14px rgb(28, 85, 88);
 }
 
 .main-section:hover .main-section__item {
-    background: rgb(212, 131, 54);
+    background: rgb(28, 85, 88);
 }
 
 .main-section:hover .main-section__badge {
-    background: #ccc
+    background: rgb(212, 131, 54);
 }
 
 .main-section a {
@@ -44,7 +44,7 @@ main {
 }
 
 .main-section__badge {
-    background: rgb(212, 131, 54);
+    background: #ccc;
     padding: 14px;
     position: absolute;
     margin: 0;
@@ -55,6 +55,7 @@ main {
     width: fit-content;
     /* border-radius: 0 14px 0 0; */
     border-radius: 7px;
+    z-index: 10;
     
 }
 
@@ -65,20 +66,24 @@ main {
 .main-section__header {
     font-size: 32px;
     color: white;
-    margin: 16px;
+    margin: 16px 0;
 }
 
 .main-section__item {
     background: rgb(230, 199, 163);
-    color: rgb(47, 65, 60); 
+    color: white;
     border: 1px black solid ;
     padding: 16px;
     border-radius: 7px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
-#plus {
+/* .main-header .main-div {
+    z-index: 10;
+} */
+
+/* #plus {
     background:rgb(28, 85, 88);
 }
 
@@ -88,5 +93,5 @@ main {
 
 #premium {
     background: rgb(47, 65, 60); 
-}
+} */
 

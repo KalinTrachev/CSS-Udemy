@@ -6,7 +6,6 @@
     padding: 10px;
     margin-top: 40px;
     position: relative;
-    
 }
 
 /* .choose {
@@ -21,10 +20,12 @@
 
 #product-overview h1 {
     color: white;
+    font-size: 56px;
     font-family: 'Anton', sans-serif;
     position: absolute;
-    top: 0;
-    left: 0;
+    margin: 0;
+    bottom: 32px;
+    left: 40%;
 }
 
 #plans {
