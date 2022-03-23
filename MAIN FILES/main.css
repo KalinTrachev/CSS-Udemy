@@ -49,6 +49,7 @@
     background: rgb(212, 131, 54);
     color: white;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .plan__annotation {
@@ -57,6 +58,9 @@
     padding: 8px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 7px;
+    position: relative;
+    width: 70%;
+    left: 15%;
     
 }
 .plan__title {
