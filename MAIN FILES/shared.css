@@ -45,10 +45,16 @@ body {
 }
 
 .main-header__brand {
-    color: rgb(47, 65, 60);
+    /* color: rgb(47, 65, 60);
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 22px; */
+    display: inline-block;
+}
+
+.main-header__brand img {
+    height: 35px;
+    margin-left: 20px;
 }
 
 
