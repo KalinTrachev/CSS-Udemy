@@ -1,17 +1,21 @@
 
 #product-overview {
-    /* background: url("Images/palazzo\ Ducale.jpg");
-    background-size: cover;
+    background: linear-gradient(to top, rgba(28, 85, 88, 0.3), transparent), 
+    url("Images/palazzo\ Ducale.jpg") left bottom 7%/cover border-box no-repeat;
+    /* background: url("Images/palazzo\ Ducale.jpg") left bottom 7%/cover border-box no-repeat; */
+    /* background: url("Images/palazzo\ Ducale.jpg"); */
+    /* background-size: cover; 
     background-repeat: no-repeat;
     background-position: left bottom 7%;
     background-origin: border-box;
     background-clip: border-box; */
-    background-image: linear-gradient(to top, navy, white);
+    /* background-image: linear-gradient(to top, navy, white); */
     width: 110%;
     height: 820px;
     padding: 10px;
     margin-top: 40px;
     position: relative;
+    filter: grayscale(7%);
     /* border: 7px navy dashed; */
 }
 
