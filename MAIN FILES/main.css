@@ -125,6 +125,7 @@
     border: 2px solid darkgrey;
     border-radius: 50%;
     margin: auto;
+    padding: 20px;
 }
 
 #key-features .section-title {
