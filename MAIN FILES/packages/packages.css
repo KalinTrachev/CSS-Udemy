@@ -64,7 +64,7 @@ main {
 }
 
 .main-section__header {
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     margin: 16px 0;
 }
@@ -75,8 +75,9 @@ main {
     border: 1px black solid ;
     padding: 16px;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 1.4rem;
     line-height: 1.5;
+    overflow: hidden;
 }
 
 /* .main-header .main-div {
