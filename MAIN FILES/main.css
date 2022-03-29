@@ -25,15 +25,9 @@
     margin: auto;
 } */
 
-.section-title {
-    color: rgb(47, 65, 60);
-    text-align: center;
-    padding: 14px;
-}
-
 #product-overview h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Anton', sans-serif;
     position: absolute;
     margin: 0;
@@ -41,6 +35,21 @@
     left: 70px;
 }
 
+@media (max-width: 40rem) {
+    #product-overview {
+        height: 35vh;
+        /* background-position: left bottom; */
+    }
+    #product-overview h1 {
+        font-size: 1.6rem;
+    }
+}
+
+.section-title {
+    color: rgb(47, 65, 60);
+    text-align: center;
+    padding: 14px;
+}
 
 #plans {
     width: 80vw;
