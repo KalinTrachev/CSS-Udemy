@@ -95,7 +95,7 @@ body {
 
 
 .main-nav {
-    display: inline-block;
+    display: none;
     text-align: right;
     width: calc(100% - 122px);
     vertical-align: middle;
@@ -160,8 +160,9 @@ body {
 }
 
 .main-footer__link {
-    display: inline-block;
-    margin: 0 16px;
+    display: block;
+    text-align: center;
+    margin: 16px auto;
 }
 
 .main-footer__link a {
@@ -172,6 +173,13 @@ body {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+@media (min-width: 40rem) {
+    .main-footer__link {
+        display: inline-block;
+        margin: 0 16px;
+    }
 }
 
 .mobile-nav {
@@ -204,4 +212,13 @@ body {
 
   .open {
       display: block !important;
+  }
+
+  @media (min-width: 40rem) {
+      .toggle-button {
+          display: none;
+      }
+      .main-nav {
+          display: inline-block;
+      }
   }
