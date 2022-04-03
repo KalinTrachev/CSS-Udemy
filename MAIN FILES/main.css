@@ -42,9 +42,14 @@
 }
 
 #plans {
-    width: 80vw;
+    /* width: 80vw; */
     margin: auto;
     text-align: center;
+}
+
+.main-div {
+    width: 80%;
+    margin: auto;
 }
 
 .plan {
@@ -113,9 +118,10 @@
 }
 
 .key-feature {
-    display: inline-block;
-    width: 30%;
+    display: block;
+    width: 100vw;
     vertical-align: top;
+    text-align: center;
 }
 
 .key-feature__image {
@@ -201,12 +207,20 @@
         height: 70vh;
         background-position: left 78% bottom 7%;
     }
+
     #product-overview h1 {
         font-size: 3rem;
     }
+
     .plan {
         display: inline-block;
         width: 28%;
         max-width: 33rem;
+    }
+
+    .key-feature {
+        display: inline-block;
+         width: 28%;
+         max-width: 33rem;
     }
 }
