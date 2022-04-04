@@ -15,7 +15,8 @@ main {
 
 .main-section {
     width: 46%;
-    height: 280px;
+    min-width: 35rem;
+    height: 20rem;
     background: rgb(46, 33, 33);
     padding: 24px;
     margin: 42px 10px;
@@ -60,6 +61,7 @@ main {
 }
 
 .main-section__highlighted {
+    font-size: 1.2rem;
     color: #ccc
 }
 
@@ -75,24 +77,25 @@ main {
     border: 1px black solid ;
     padding: 16px;
     border-radius: 7px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     overflow: hidden;
 }
 
-/* .main-header .main-div {
-    z-index: 10;
-} */
+@media (min-width: 40rem) {
+    .main {
+      max-width: 1500px;
+    }
+    .main-section__item {
+        background: rgb(230, 199, 163);
+        color: white;
+        border: 1px black solid ;
+        padding: 16px;
+        border-radius: 7px;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        overflow: hidden;
+    }
 
-/* #plus {
-    background:rgb(28, 85, 88);
+
 }
-
-#free {
-    background: rgb(35, 119, 124);
-}
-
-#premium {
-    background: rgb(47, 65, 60); 
-} */
-
