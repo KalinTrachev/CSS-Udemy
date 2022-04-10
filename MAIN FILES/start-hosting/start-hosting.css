@@ -32,7 +32,7 @@ main {
 
 
 .signup-form select:focus, 
-.signup-form input:not([type="checkbox"]):focus {
+.signup-form input:focus {
     outline: none;
     background: rgba(230, 199, 163, 0.4);
     border-color: rgb(47, 65, 60);
@@ -48,11 +48,17 @@ main {
     appearance: none;
 }
 
+.signup-form input[type="checkbox"]:checked {
+    background: rgb(47, 65, 60);
+    border: 1px solid white;
+}
+
 
 .signup-form button[type="submit"] {
     display: block;
     width: 25rem;
     margin-top: 1rem;
+    border: 1px solid rgb(47, 65, 60);
 }
 
 @media (min-width: 40rem) {
