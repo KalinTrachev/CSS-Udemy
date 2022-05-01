@@ -58,7 +58,7 @@ main {
 }
 
 .signup-form :invalid {
-    border-color:red;
+    border-color:red !important;
     background: rgb(255, 217, 217);
 }
 
