@@ -33,9 +33,7 @@ main {
     padding: 0.2rem 0.5rem;
     font: inherit;
 }
-
-
-.signup-form select:focus, 
+ 
 .signup-form input:focus {
     outline: none;
     background: rgba(230, 199, 163, 0.4);

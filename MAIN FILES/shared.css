@@ -42,6 +42,12 @@ main {
     outline: none;
 }
 
+.button[disabled] {
+    cursor: not-allowed;
+    border: #ccc;
+    background: rgb(169, 158, 158);
+}
+
 .main-header {
     width: 100%;
     background: rgb(230, 199, 163);
