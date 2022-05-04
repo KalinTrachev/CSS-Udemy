@@ -58,14 +58,13 @@ main {
     padding: 8px 16px;
     box-shadow: 8px 8px 16px 2px rgba(0, 0, 0, 0.7);
     position: fixed;
+    height: 3.5rem;
     top: 0;
     left: 0;
-    z-index: 1;
-}
-
-.main-header div {
-    display: inline-block;
-    vertical-align: middle;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .toggle-button {
@@ -90,39 +89,27 @@ main {
     margin: 0.6rem 0;
   }
   
-
 .main-header__brand {
     /* color: rgb(47, 65, 60); */
     text-decoration: none;
     font-weight: bold;
     /* font-size: 1.5rem; */
-    display: inline-block;
-    vertical-align: middle;
-    height: 2.5rem;
 }
 
 .main-header__brand img {
-    height: 100%;
+    height: 2.5rem; 
     margin-left: 20px;
-}
-
-
-.main-nav {
-    display: none;
-    text-align: right;
-    width: calc(100% - 122px);
     vertical-align: middle;
 }
-
 
 .main-nav__items {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .main-nav__item {
-    display: inline-block;
     margin: 0 16px;
 }
 
@@ -232,6 +219,6 @@ main {
           display: none;
       }
       .main-nav {
-          display: inline-block;
+          display: flex;
       }
   }
