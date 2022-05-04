@@ -222,12 +222,14 @@
     }
 
     .key-features__list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
         margin: auto;
         width: 80vw;
     }
 
     .key-feature {
-        display: inline-block;
         width: 28%;
         max-width: 33rem;
         margin: 16px;
