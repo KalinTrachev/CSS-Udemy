@@ -62,7 +62,6 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-    width: 25rem;
     margin-top: 1rem;
     border: 1px solid rgb(47, 65, 60);
 }
