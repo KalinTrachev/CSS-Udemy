@@ -10,11 +10,16 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   overflow-x: hidden;
+  display: grid;
+  height: 100%;
+  grid-template-rows: 3.5rem auto fit-content(8rem);
+  grid-template-areas: "header"
+                        "main"
+                        "footer";
 }
 
 main {
-  min-height: calc(100vh - 3.5rem - 8rem);
-  margin-top: 3.5rem;
+  grid-area: main;
 }
 
 .backdrop {
@@ -179,6 +184,7 @@ main {
   list-style: none;
   padding: 32px;
   margin-top: 48px;
+  grid-area: footer;
 }
 
 .main-footer__links {
@@ -205,8 +211,8 @@ main {
 }
 
 .open {
-    display: block !important;
-  }
+  display: block !important;
+}
 
 @media (min-width: 40rem) {
   .main-footer__link {
