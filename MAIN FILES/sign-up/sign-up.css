@@ -1,5 +1,5 @@
 main {
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .signup-title {
@@ -9,14 +9,15 @@ main {
 }
 
 .signup-form{
-    margin: 1rem;
+    display: grid;
+    grid-auto-rows: 2rem;
+    row-gap: 0.5rem;
 }
 
 .signup-form label,
 .signup-form input,
 .signup-form select {
     display: block;
-    margin-top: 1rem;
     width: 100%;
 }
 
@@ -62,13 +63,23 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-    margin-top: 1rem;
     border: 1px solid rgb(47, 65, 60);
 }
 
 @media (min-width: 40rem) {
     .signup-form {
         margin: auto;
-        width: 25rem;
+        width: 30rem;
+        grid-template-columns: 10rem auto;
+        row-gap: 1rem;
+        column-gap: 0.5rem;
+    }
+
+    .signup-form__checkbox {
+        grid-column-end: span 2;
+    }
+
+    #title {
+        grid-column-end: span 2;
     }
 }
