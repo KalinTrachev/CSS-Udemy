@@ -11,7 +11,7 @@ main {
 .signup-form{
     display: grid;
     grid-auto-rows: 2rem;
-    row-gap: 0.5rem;
+    row-gap: 0.7rem;
 }
 
 .signup-form label,
