@@ -20,11 +20,11 @@ main {
     background: rgb(46, 33, 33);
     padding: 24px;
     margin: 42px 10px;
-    /* border: 5px rgb(230, 199, 163) solid; */
     border-radius: 14px;
     border-left: none;
     box-shadow: 14px 14px rgb(230, 199, 163);
     position: relative;
+    overflow: hidden;
 }
 
 .main-section:hover,
@@ -36,7 +36,8 @@ main {
     background: rgb(28, 85, 88);
 }
 
-.main-section:hover .main-section__badge {
+.main-section:hover .main-section__badge,
+.main-section:hover .main-section__badge__free {
     background: rgb(212, 131, 54);
 }
 
@@ -56,16 +57,17 @@ main {
     width: fit-content;
     border-radius: 7px;    
 }
+
 .main-section__badge__free {
     background: #ccc;
     position: absolute;
     margin: 0;
     top: 0;
     right: 0;
-    padding: 0.5rem;
-    transform: rotateZ(45deg) translateX(2.5rem) translateY(-1rem);
+    padding: 0.3rem;
+    transform: rotateZ(45deg) translateX(3.2rem) translateY(-0.7rem);
     transform-origin: center;
-    width: 10rem;
+    width: 12rem;
     text-align: center;
 }
 
