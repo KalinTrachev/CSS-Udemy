@@ -65,7 +65,7 @@ main {
     top: 0;
     right: 0;
     padding: 0.3rem;
-    transform: rotateZ(45deg) translateX(3.2rem) translateY(-0.7rem);
+    transform: rotate(45deg) translate(3.2rem, -0.7rem);
     transform-origin: center;
     width: 12rem;
     text-align: center;
