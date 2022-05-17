@@ -51,13 +51,22 @@ main {
     padding: 14px;
     position: absolute;
     margin: 0;
-    /* top: 0s;
-    right: 0; */
     top: 16px;
     right: 16px;
     width: fit-content;
-    /* border-radius: 0 14px 0 0; */
     border-radius: 7px;    
+}
+.main-section__badge__free {
+    background: #ccc;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    transform: rotateZ(45deg) translateX(2.5rem) translateY(-1rem);
+    transform-origin: center;
+    width: 10rem;
+    text-align: center;
 }
 
 .main-section__highlighted {
