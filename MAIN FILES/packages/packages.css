@@ -30,6 +30,7 @@ main {
 .main-section:hover,
 .main-section:active {
     box-shadow: 14px 14px rgb(28, 85, 88);
+    animation: moveOnHover 400ms 0s ease-out forwards 1;
 }
 
 .main-section:hover .main-section__item {
@@ -110,6 +111,16 @@ main {
         line-height: 1.5;
         overflow: hidden;
     }
+}
 
-
+@keyframes moveOnHover {
+    0% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(5rem);
+    }
+    100% {
+        transform: translateX(3rem);
+    }
 }
